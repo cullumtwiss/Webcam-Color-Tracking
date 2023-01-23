@@ -146,7 +146,6 @@ public class RegionFinder {
 			}
 		} else if (displayMode == 'p') {
 			//if display mode is p, color the largest region plus all the largest regions we found since clicking
-			System.out.println(largestCollection.size());
 			for (ArrayList<Point> region : largestCollection) {
 				for(Point p : region) {
 					recoloredImage.setRGB(p.x, p.y, paintColor);
